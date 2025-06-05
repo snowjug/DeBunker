@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attendance Calculator Pro</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <button class="theme-toggle" onclick="toggleTheme()">🌓 Toggle Theme</button>
+    
+    <div class="container">
+        <div class="header">
+            <h1>🎯 Attendance Calculator</h1>
+            <p>Calculate your attendance with precision</p>
+        </div>
+        
+        <div class="main-content">
+            <div class="input-section">
+                <h2 class="section-title">📊 Enter Your Details</h2>
+                
+                <div class="form-group">
+                    <label for="totalClasses">Total Classes Conducted</label>
+                    <input type="number" id="totalClasses" min="0" placeholder="e.g., 50">
+                </div>
+                
+                <div class="form-group">
+                    <label for="attendedClasses">Classes Attended</label>
+                    <input type="number" id="attendedClasses" min="0" placeholder="e.g., 40">
+                </div>
+                
+                <div class="form-group">
+                    <label for="requiredPercentage">Required Attendance %</label>
+                    <select id="requiredPercentage">
+                        <option value="75">75% (Standard)</option>
+                        <option value="80">80%</option>
+                        <option value="85">85%</option>
+                        <option value="90">90%</option>
+                        <option value="custom">Custom</option>
+                    </select>
+                </div>
+                
+                <div class="form-group hidden" id="customPercentageGroup">
+                    <label for="customPercentage">Custom Percentage</label>
+                    <input type="number" id="customPercentage" min="0" max="100" placeholder="e.g., 78">
+                </div>
+                
+                <button class="btn" onclick="showResult()">Show Result</button>
+                <button class="btn btn-secondary" onclick="clearForm()">Clear Form</button>
+            </div>
+            
+            <div class="results-section">
+                <h2 class="section-title">📈 Your Result</h2>
+                <div id="resultContainer">
+                    <div class="empty-state">
+                        <h3>🎓 Ready to calculate</h3>
+                        <p>Enter your attendance details and click "Show Result" to see your analysis!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js" href="script.js"></script>
+</body>
+</html>
