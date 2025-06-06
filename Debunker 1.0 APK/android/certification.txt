@@ -1,0 +1,24 @@
+---------------------------------------------------
+Here are the ownership and the certification details
+of the Debunker 1.0
+---------------------------------------------------
+
+app_name - 						Debunker
+app_alias - 					debunker
+app_author_name - 				My Company
+app_author_organizational - 	My Company
+app_author_organization - 		My Company
+app_author_locality - 			My Company
+app_author_state - 				Madhya Pradesh
+app_author_country - 			India
+app_password - 					keonu0Y67Vsf
+app_versionName - 				versionName "1.0"
+app_versionCode - 				100
+
+---------------------------------------------------
+The certification was created by WebIntoApp.com at
+the Friday 6th of June 2025 04:44:19 PM
+
+https://www.webintoapp.com
+---------------------------------------------------
+
